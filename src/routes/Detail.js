@@ -18,7 +18,7 @@ const Detail = () => {
   useEffect(() => {
     getMovie();
   }, []);
-  console.log(movie);
+
   return (
     <div className={styles.container}>
       {loading ? (
