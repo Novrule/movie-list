@@ -11,8 +11,8 @@ const Home = () => {
     );
     const json = await response.json();
 
-    setMovies(json.data.movies);
     setLoading(false);
+    setMovies(json.data.movies);
   };
 
   useEffect(() => {

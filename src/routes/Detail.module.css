@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  font-weight: 300;
+}
+
+.movie {
+  display: flex;
+  width: max-content;
+  height: max-content;
+}
+
+.movie_title,
+.movie_year {
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.movie_title a {
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: #2c2c2c;
+  text-decoration: none;
+}
+
+.movie_genres {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin: 5px 0px;
+  padding: 0;
+  list-style: none;
+}
+
+.movie_genres li,
+.movie_year {
+  margin-right: 10px;
+  font-size: 14px;
+}
