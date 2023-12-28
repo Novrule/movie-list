@@ -8,7 +8,7 @@
 
 ## 배포 주소
 
-> https://top-chaser.github.io/movie-list/
+> https://Novrule.github.io/movie-list/
 
 ## 프로젝트 주요 기능
 
